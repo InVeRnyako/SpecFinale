@@ -1,0 +1,61 @@
+    1  apt update
+    2  sudo apt update
+    3  sudo apt upgrade
+    4  ls
+    5  mkdir temp
+    6  cd temp
+    7  cat > Pets.data
+    8  rm Pets.data 
+    9  ls
+   10  cat > Pets.data
+   11  cat > Pack.data
+   12  cat Pets.data Pack.data > Animals.data
+   13  ls
+   14  cat Animals.data 
+   15  mv Animals.data Друзья_человека
+   16  ls
+   17  cat Друзья_человека 
+   18  mkdir fold
+   19  mv Друзья_человека fold/
+   20  ls
+   21  cd fold/
+   22  ls
+   23  sudo add-apt-repository mysql-repository
+   24  sudo apt install mysql-server
+   25  dpkg --get-selections | grep mysql
+   26  mysql
+   27  sudo mysql
+   28  sudo apt-get install mysql-server
+   29  apt search htop
+   30  sudo dpkg -i htop.deb
+   31  sudo apt-get update
+   32  apt search htop
+   33  wget http://security.ubuntu.com/ubuntu/pool/main/g/git_2.25.1-1ubuntu3.11_amd64.deb
+   34  wget http://ftp.ru.debian.org/debian/pool/main/g/git/git-all_2.43.0-1_all.deb
+   35  sudo dpkg -i git-all_2.43.0-1_all.deb 
+   36  sudo dpkg -i git_2.30.2-1~bpo10+1_amd64.deb 
+   37  git
+   38  apt remove git
+   39  sudo apt-get remove git
+   40  git
+   41  sudo apt list --installed
+   42  sudo apt-get purge --auto-remove git
+   43  sudo apt list --installed
+   44  sudo apt-get purge --auto-remove git-all
+   45  sudo apt list --installed
+   46  sudo apt-get autoremove
+   47  sudo apt-get clean
+   48  dpkg --list
+   49  sudo apt-get remove git
+   50  apt --fix-broken install
+   51  sudo apt --fix-broken install
+   52  git
+   53  sudo apt-get remove git-all
+   54  sudo apt-get remove git
+   55  git
+   56  dpkg --list | grep git*
+   57  sudo dpkg -i git_2.30.2-1~bpo10+1_amd64.deb 
+   58  git
+   59  sudo apt-get remove git
+   60  cat history > history.txt
+   61  history > history.txt
